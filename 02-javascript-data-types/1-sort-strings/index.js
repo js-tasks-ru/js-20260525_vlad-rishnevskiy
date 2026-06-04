@@ -12,6 +12,6 @@ export function sortStrings(arr, param = 'asc') {
     } else if (param === 'desc') {
         return sortedArr.reverse();
     } else {
-        throw new Error('Invalid sorting parameter. Use "asc" or "desc".');
+        throw new Error('Invalid sorting parameter. Use "asc" or "desc"!');
     }
 }
